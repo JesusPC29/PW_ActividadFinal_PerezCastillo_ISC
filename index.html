@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Aquí colocamamo esta instrucción para vincular nuestro index, con el css -->
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+    <!-- aquí se crea una clase para que podamos ubicar mas rapido las estructuras del index, al 
+    moneto de editarlo en el css -->
+    <header class="header"> 
+        <div class="menu container">
+            <a href="#" class="logo">logo</a>
+            <input type="checkbox" id="menu" /> <!-- se usa un checkbox para el listado de contenido-->
+            <label for="menu">
+                <img src="imagenes/menu.png" class="menu-icno"alt="">
+            </label>
+            <nav class="navbar">
+                <!-- este es el contenido que se encontrara en el checkbox -->
+                <ul>
+                     <li><a href="#">Inicio</a></li>
+                     <li><a href="https://www.bartalentlab.com/app/uploads/Ilus3_Cafe-1140x806.jpg">Servicios</a></li>
+                     <li><a href="https://www.franquiciasdecafe.com.mx/wp-content/uploads/2013/09/estrategias-de-precios-para-cafeteria.jpg">Productos</a></li>
+                     <li><a href="https://www.facebook.com/jesusantonio.perezcastillo.5">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="header-content container">
+            <!-- aquí se coloca un titulo -->
+            <h1>Cafe Jarocho</h1>
+            <!-- se coloca un parrafo el cual esta es la información que se mostrara en el apartado inicial de la pagina -->
+            <p>
+                ¡Bienvenido a nuestra página web de café! Aquí encontrarás una experiencia única, donde la pasión por 
+                el café se une con un ambiente acogedor y un servicio excepcional. Te hablaremos de las mejores cafeterias
+                de veracruz, asi como sus cafes. Esperamos que visites alguana cafetería
+                recomendada para brindarte una experiencia excepcional. ¡Bienvenido a nuestra familia cafetera!
+            </p>
+            <!-- este url nos dirige hacia otra pagina para obtenr más información -->
+            <a href="https://www.tripadvisor.com.mx/Restaurants-g150804-c8-Veracruz_Central_Mexico_and_Gulf_Coast.html" class="btn-1">Información</a>
+        </div>
+    </header>
+
+<!-- aui algual que el anterior usamos una clase para diferenciar al momento de dar forma al CSS, se agrego
+un parrafo, y tambien un h2 para el titulo, y una imagen -->
+    <section class="coffee">
+        <img class="coffee-img" src="images/bg2.png" alt="">
+        <div class="coffee-content container">
+            <h2>Diferentes tipos de cafe en Veracruz</h2>
+            <p class="txt-p">
+                Veracruz, México, es famoso por su producción de café de alta calidad. En la región se cultivan diversos 
+                tipos de café, como el Café Veracruzano con su sabor suave y equilibrado, el Café de Altura con sabores 
+                intensos y complejos, y el Café de Sombra, cultivado bajo árboles más altos para una maduración lenta. 
+                También se encuentran opciones de café orgánico y microlotes con perfiles de sabor únicos. En Veracruz, 
+                cada taza de café representa la excelencia y tradición de la región cafetalera.
+   
+            </p>
+            <!-- en este arpatado se una al igual que en todos un clase, la imagen y el parrafo -->
+            <div class="coffee-group">
+                <div class="coffee-1">
+                    <img src="images/c1.png" alt="">
+                    <h3>Café Veracruzano</h3>
+                    <p>
+                        Este tipo de café se caracteriza por su sabor suave y equilibrado, con notas dulces y una acidez 
+                        brillante. Es apreciado por su aroma cautivador y su cuerpo medio.
+                       
+                    </p>
+                </div>
+                <div class="coffee-1">
+                    <img src="images/c2.png" alt="">
+                    <h3>Café Orgánico</h3>
+                    <p>
+                        Estos granos se cultivan sin el uso de productos químicos sintéticos,
+                         respetando los principios de agricultura sostenible y promoviendo la conservación
+                          del medio ambiente.
+                    </p>
+                </div>
+                <div class="coffee-1">
+                    <img src="images/c3.png" alt="">
+                    <h3>Café de Microlotes</h3>
+                    <p>
+                        Algunas fincas en Veracruz se especializan en la producción de microlotes, 
+                        que son pequeñas cosechas de café seleccionadas cuidadosamente y procesadas 
+                        de manera artesanal. Estos cafés suelen tener perfiles de sabor únicos y distintivos, 
+                        y son muy valorados por los amantes del café de calidad.
+                    </p>
+                </div>
+            </div>
+            <!-- se coloca un hrf para redirijir a otro apartado para ver mas información -->
+            <a href="https://www.sweetesthome.mx/cafe-veracruzano/" class="btn-1">Información</a>
+        </div>
+    </section>
+
+    <!-- en este apartado se coloca clases correspondientes para algunos de los servicios que normalmenete se usan-->
+    <main class="Servicios">
+        <div class="services-contenet container">
+            <h2>Cafeteria servicios</h2>
+
+            <div class="services-group">
+
+                <div class="services-1">
+                    <img src="images/i1.svg" alt="">
+                    <h3>Experiencia de cata de café</h3>
+                </div>
+                <div class="services-1">
+                    <img src="images/i2.svg" alt="">
+                    <h3>Café para llevar y entrega a domicilio</h3>
+                </div>
+                <div class="services-1">
+                    <img src="images/i3.svg" alt="">
+                    <h3>Espacio para eventos y reuniones</h3>
+                </div>
+            </div>
+            <!-- se agrega un parrafo con infrmación relevante acerca de lo anterior comentado -->
+            <p>
+                Descubre y disfruta de una experiencia sensorial única mientras aprendes sobre 
+                los perfiles de sabor y los orígenes del café de Veracruz.
+                Disfruta de la comodidad de llevar contigo tu café favorito o aprovecha nuestro
+                servicio de entrega a domicilio para disfrutar del sabor fresco del café en la comodidad de tu hogar.
+                Brindamos un espacio versátil para eventos y reuniones, con instalaciones modernas y opciones de catering, 
+                para que puedas organizar reuniones exitosas y especiales en nuestra cafetería.
+            </p>
+            <!-- se agrega un ipervinculo para redirijir la clicear en información -->
+            <a href="https://www.tripadvisor.com.mx/Restaurants-g154245-c8-Boca_del_Rio_Central_Mexico_and_Gulf_Coast.html#MAPVIEW" class="btn-1">Información</a>
+        </div>
+
+    </main>
+
+    <section class="general">
+        <div class="general-1">
+            <h2>café en grano</h2>
+            <p>
+                El café en grano de Veracruz es altamente valorado por su calidad y sabor excepcionales. 
+                Los cafetales de Veracruz se encuentran en regiones con altitudes variadas, lo que contribuye 
+                a la diversidad de perfiles de sabor en sus granos. El café en grano Veracruz se caracteriza por
+                 tener una acidez brillante y equilibrada, notas dulces y una fragancia cautivadora. Es cultivado 
+                 con cuidado y pasión, siguiendo prácticas sostenibles que respetan tanto el medio ambiente como a 
+                 los productores. Los amantes del café aprecian la exquisitez de los granos de café en grano de Veracruz,
+                  que ofrecen una experiencia única en cada taza.
+            </p>
+            <!-- se agrega un ipervinculo para redirijir la clicear en información -->
+            <a href="https://super.walmart.com.mx/ip/cafe-en-grano-extra-special-veracruz-250-g/00750179161700" class="btn.1">Información</a>
+        </div>
+        <div class="general-2">
+        </div>
+    </section>
+
+    <section class="general">
+        <div class="general-3"></div>
+        <div class="general-1">
+            <h2>Café con crema</h2>
+            <p>
+                El café con crema Veracruz es una variante deliciosa que combina la intensidad del café con la 
+                suavidad de la crema. Preparado con granos de café Veracruzano de alta calidad, se agrega crema 
+                fresca al café caliente para lograr un equilibrio perfecto. El resultado es una taza indulgente 
+                con un sabor suave y seductor, donde la crema realza las notas y matices del café. Es una opción 
+                indulgente y reconfortante para aquellos que buscan disfrutar de una experiencia de café más suave 
+                y deliciosa.
+            </p>
+            <!-- se agrega un ipervinculo para redirijir la clicear en información -->
+            <a href="https://perfectdailygrind.com/es/2018/12/14/que-es-un-flat-white-y-que-lo-distingue-de-un-latte/" class="btn.1">Información</a>
+        </div>
+    </section>
+
+    <section class="blog container">
+
+        <h2>¿Porque es importante en café en Veracruz?</h2>
+        <p>
+            El café es de gran importancia en Veracruz debido a su calidad, tradición histórica y su impacto económico. 
+            Las condiciones climáticas y geográficas favorables de la región han permitido el cultivo de granos de café 
+            de alta calidad con perfiles de sabor únicos. La industria cafetalera de Veracruz genera empleo y contribuye 
+            al desarrollo económico local. Además, el café veracruzano es reconocido y apreciado a nivel mundial por su 
+            excelencia y diversidad de sabores. En resumen, el café en Veracruz es un tesoro valioso que impulsa la economía, 
+            honra la tradición y deleita a los amantes del café con su calidad excepcional.
+        </p>
+
+    </section>
+
+<!-- se coloca la clase footer para posteriormente darle forma en CSS -->
+    <footer class="footer">
+        <div class="footer-content container">
+            <div class="link">
+                <h3>Creador</h3>
+                <ul>
+                    <!-- se coloca una lista en la cual se agrega un link para ver información del creador -->
+                    <li><a href="https://www.facebook.com/jesusantonio.perezcastillo.5">Creador de la pagina</a></li>
+      
+                </ul>
+            </div>
+            <!-- en div se colocan las cafeterias mas famosas de veracruz, al igual que su vinculo para poder
+            ver mas información -->
+            <div class="link">
+                <h3>Mejores Caféterias</h3>
+                <ul>
+                    <li><a href="https://www.tripadvisor.com.mx/Restaurant_Review-g150804-d782315-Reviews-La_Parroquia_de_Veracruz-Veracruz_Central_Mexico_and_Gulf_Coast.html">La parroquia</a></li>
+                    <li><a href="https://www.tripadvisor.com.mx/Restaurant_Review-g150804-d1032956-Reviews-Vips-Veracruz_Central_Mexico_and_Gulf_Coast.html">Vips</a></li>
+                    <li><a href="https://www.tripadvisor.com.mx/Restaurant_Review-g150804-d2692526-Reviews-Gran_Cafe_del_Portal-Veracruz_Central_Mexico_and_Gulf_Coast.html">Gran café del portal</a></li>
+                    <li><a href="https://www.tripadvisor.com.mx/Restaurant_Review-g150804-d10440864-Reviews-Bendita_Tierra_Cafe-Veracruz_Central_Mexico_and_Gulf_Coast.html">Bendita tierra café</a></li>
+                </ul>
+            </div>
+         
+            
+        </div>
+
+    </footer>
+    
+</body>
+</html>

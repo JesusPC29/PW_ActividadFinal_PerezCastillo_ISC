@@ -1,0 +1,449 @@
+/* se coloca el impor para poder importar la sfuentes que se husaran para darle forma a la pagina */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,600;0,700;0,800;1,400&display=swap');
+
+
+/* para resetear y poder editatarlo correctamente */
+*{
+    margin: 0;        
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* se define el tamaño y se centra */
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* aqui se coloca un color obscuro a las imagenes como forma de sombra */
+.header{
+    background-image: linear-gradient(
+        rgba(0,0,0,0.7),
+        rgba(0,0,0,0.7)),
+        url(images/bg.jpg);
+
+        /* aqui se le de el formata al apartado del header */
+        background-position: center bottom;
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 70vh;
+        display: flex;
+        align-items: center;
+}
+
+
+/* se le da formato al menu, como la separacion, y colocado en el centro */
+.menu{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* se le da color a la fuente */
+.logo{
+    color: #FFFDFC;
+    font-size: 25px;
+    font-size: 800;
+}
+
+/* aqui se colocan los enlaces a la derecha */
+.menu .navbar ul li {
+    position: relative;
+    float: left;
+}
+
+/* se define el tamaño de la fuente, el color entre otras  */
+.menu .navbar ul li a {
+    font-size: 18px;
+    padding: 20px;
+    color: #FFFDFC;
+    display: block;
+    font-size: 600;
+}
+
+/* para cambiar el color del boton */
+.menu .navbar ul li a:hover{
+    color: #CE967B;
+}
+
+#menu {
+    display: none;
+}
+
+
+.menu-icono {
+    width: 25px;
+}
+
+
+.menu label {
+    cursor: pointer;
+    display: none;
+}
+
+/* para colocarlo en el cntro */
+.header-content {
+    text-align: center;
+}
+
+/* para que el contenido del header tenga otro tipo de color, el tamaño de la fuente, y el
+tamaño del boton */
+.header-content h1 {
+    font-size: 75px;
+    line-height: 80px;
+    color: #f9fafc;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+}
+
+/* para el contenido de la informacion */
+.header-content p {
+    font-size: 16px;
+    color: #C5C5C5;
+    padding: 0 250px;
+    margin-bottom: 25px;
+}
+
+/* para el boton, que cambie el boton, de color al pasar el cursor y el tamaño */
+.btn-1 {
+    display: inline-block;
+    padding: 11px 35px;
+    background-color: #CE967B;
+    color: #f9fafc;
+    text-transform: uppercase;
+}
+
+.btn-1:hover {
+    background-color: #db916c;
+}
+
+/* en esta parse se da el formato de los tipos de cafe mas consumidos en veracruz
+se coloca el color de fondo, el tamaño de la fuente y el color */
+.coffee {
+    padding: 100px;
+    background-color: #E1E2E6;
+    position: relative;
+}
+
+.coffee-content {
+    text-align: center;
+}
+
+.coffee-content h2 {
+    font-size: 55px;
+    line-height: 70px;
+    color: #323337;
+    text-transform: uppercase;
+    padding: 0 250px;
+    margin-bottom: 15px;
+}
+
+/* para la informacion de lo anterior que este centrada y el color y el tamaño del boton */
+.txt-p {
+    font-size: 16px;
+    color: #414247;
+    padding: 0 250px;
+    margin-bottom: 35px;
+}
+
+.coffee-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.coffee-1 {
+    padding: 0 25px;
+}
+
+/* se configuran las imagenes */
+.coffee-1 img {
+    width: 200px;
+}
+
+.coffee-img {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.coffee-1 h3 {
+    color: #323337;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+/* se colocan los servicios que principalmente se usan, se cambia el color de la fuente, se centra */
+.services {
+    background-image: linear-gradient(
+        rgba(0,0,0,0.7),
+        rgba(0,0,0,0.7)),
+        url(images/bg3.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        padding: 100px 0;
+}
+
+.services-content {
+    text-align: center;
+}
+
+/* para la informacion de los servicios */
+.services-content h2 {
+    font-size: 55px;
+    line-height: 70px;
+    color: #f9fafc;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+
+.services-content p {
+    font-size: 16px;
+    color: #C5C5C5;
+    margin-bottom: 50px;
+    padding: 0 100px;
+}
+
+/* se les da espacio, y se cambia el color de la fuente */
+.services-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.services-1 {
+    padding: 0 100px;
+}
+
+.services-1 img {
+    width: 25px;
+    margin-bottom: 15px;
+}
+
+.services-1 h3 {
+    color: #EACCB3;
+    font-size: 18px;
+}
+
+.general {
+    display: flex;
+}
+
+/* para la imagenes de mas informacion, al igual se edita el color y el tamaño de la fuente, 
+el ancho y largo de las imagenes etc */
+.general-1 {
+    width: 50%;
+    padding: 100px 250px 100px 100px;
+    background-color: #E1E2E6;
+}
+
+.general-2 {
+    background-image: url(images/coffe-1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+
+.general-3 {
+    background-image: url(images/coffee-2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+
+/* par darle formato al texto */
+
+h2 {
+    font-size: 55px;
+    line-height: 70px;
+    color: #323337;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 16px;
+    color: #414247;
+    margin: 25px 0 45px 0;
+}
+
+
+/* para el apartado de los blog, al gual, se centra y se le da espacio entre ellos */
+.blog {
+    padding: 100px 0;
+    text-align: center;
+}
+
+.blog-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.blog-1 {
+    padding: 15px 55px;
+}
+
+.blog-1 img {
+    width: 250px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+/* se les da el color de la fuete */
+.blog-1 h3 {
+    font-size: 25px;
+    color: #323337;
+}
+
+
+/* se le da el formato al footer, como colocarlos en el lado izquierdo y en el lado derecho, 
+el color del fondo y te color de la funete, asi como colocarlo en filas o lista.*/
+.footer {
+    padding: 100px 0;
+    background-color: #000000;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.link h3 {
+    font-size: 18px;
+    color: #f9fafc;
+    margin-bottom: 15px;
+}
+
+.link a {
+    font-size: 16px;
+    color: #C5C5C5;
+    display: block;
+    margin-bottom: 15px;
+}
+
+@media(max-width:991px){
+
+    .menu{
+        padding: 30px;
+    }
+
+    .menu label {
+        display: initial;
+    }
+
+    .menu .navbar {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: #323337;
+        display: none;
+    }
+
+    .menu .navbar ul li {
+        width: 100%;
+    }
+
+    #menu:checked ~ .navbar {
+        display: initial;
+    }
+
+    .header {
+        min-height: 0vh;
+    }
+
+     .header-content {
+        padding: 100px 30px;
+     }
+
+     .header-content p {
+        padding: 0;
+     }
+
+     .coffee {
+        padding: 30px;
+     }
+
+     .coffee-content h2 {
+        padding: 0;
+     }
+
+     .txt-p {
+        padding: 0;
+     }
+
+     .coffee-group {
+        flex-direction: column;
+        margin-bottom: 0;
+     }
+
+     .coffee-img {
+        display: none;
+     }
+
+     .services {
+        padding: 30px;
+     }
+
+     .services-content p {
+        padding: 0;
+     }
+
+     .services-group {
+        flex-direction: column;
+        margin-bottom: 0;
+     }
+
+     .services-1 {
+        margin-bottom: 25px;
+     }
+
+     .general {
+        flex-direction: column;
+     }
+
+     .general-1 {
+        width: 100%;
+        padding: 30px;
+        text-align: center;
+     }
+
+     .general-2, .general-3 {
+        display: none;
+     }
+
+     .blog {
+        padding: 30px;
+     }
+
+     .blog-content {
+        flex-direction: column;
+     }
+
+     .blog-1 {
+        padding: 0;
+     }
+
+     .footer {
+        padding: 30px;
+     }
+
+     .footer-content {
+        flex-direction: column;
+        text-align: center;
+     }
+}
